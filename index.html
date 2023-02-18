@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Photo Blog</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- HERO SECTION -->
+  <h1>Dog Photo Blog</h1>
+  
+  <!-- END OF HERO SECTION -->
+
+
+  <!-- MAIN SECTION -->
+  <main>
+
+  <!-- ABOUT SECTION -->
+  <section class="section-1">
+    <h2>Dog Photos</h2>
+    <p>Click here to view more <a href="#" target="_blank" rel="noopener noreferrer">dog photos</a></p>
+    <a href="">
+      <figure>
+        <img src="images/pexels-chevanon-photography-1108099.jpg" alt="Chevanon Photography from Pexels" width="400px" height="auto">
+      </figure>
+    </a>
+  </section>
+  
+  <!-- FEATURED SECTION -->
+  <section>
+    <h2>DOG LISTS</h2>
+    <h3>Things Dogs Love:</h3>
+    <ul>
+      <li>Seeing their hooman</li>
+      <li>Dog treats</li>
+      <li>Dog toys</li>
+    </ul>
+    <figure>  
+      <img src="images/pexels-mart-production-8434637.jpg" alt="Dog Food" width="400px" height="auto">
+      <figcaption>My dog <em>loves</em> dog food</figcaption>
+    </figure>
+    <h3>Things Dogs hate:</h3>
+    <ol>
+      <li>Bad hooman</li>
+      <li>Cats</li>
+      <li>Taking a bath</li>
+    </ol>
+    <figure>  
+      <img src="images/pexels-dominika-roseclay-2023384.jpg" alt="Dog Food" width="400px" height="auto">
+      <figcaption>My dog <em>love</em> their hoomans</figcaption>
+    </figure>
+  </section>
+
+  <!-- FORM SECTION -->
+  <section>
+    <h2>DOG FORM</h2>
+    <form>
+      <fieldset>
+      <legend>Is your dog an indoor or an outdoor dog?</legend>
+        <label>
+          <input type="radio" value="indoor" name="indoor-outdoor" id="indoor" checked>Indoor
+        </label>
+        <label>
+          <input type="radio" value="outdoor" name="indoor-outdoor" id="outdoor">Outdoor
+        </label>
+      </fieldset>
+      <fieldset>
+      <legend>What is your dog personality?</legend>
+        <input type="checkbox" value="loving" name="personality" id="loving" checked><label for="loving">Loving</label>
+        <input type="checkbox" value="lazy" name="personality" id="lazy"><label for="lazy">Lazy</label>
+        <input type="checkbox" value="energetic" name="personality" id="energetic"><label for="energetic">Energetic</label>
+      </fieldset>
+
+      <input type="text" name="cute-dogs1" placeholder="Cute dogs url" required>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  </main>
+  <!-- END OF MAIN SECTION -->
+
+
+  <!-- FOOTER SECTION -->
+</body>
+</html>

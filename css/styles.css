@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: beige;
+}
+
+.section-1 {
+  background-image: url('../images/pexels-jozef-fehér-1633522.jpg');
+}
+
+h1 {
+  background-color: lightcoral;
+  color: white;
+}
